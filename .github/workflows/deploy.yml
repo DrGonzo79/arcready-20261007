@@ -28,6 +28,8 @@ jobs:
       - run: npm run typecheck
       - run: npm run test:e2e
       - run: npm run build
+        env:
+          PAGES_BUILD: "true"
       - run: npm audit --omit=dev --audit-level=high
       - uses: astral-sh/setup-uv@v6
       - run: uv sync --project api --locked --dev
