@@ -1,0 +1,13 @@
+{
+  "community": "Juniper Ridge HOA",
+  "fictional": true,
+  "updated": "2026-09-18",
+  "rules": [
+    {"id": "F-12", "category": "Fence", "title": "Rear-yard fence height", "detail": "Rear-yard fences may not exceed 6 feet and must use cedar, composite, or wrought iron.", "severity": "required"},
+    {"id": "F-18", "category": "Fence", "title": "Setback", "detail": "Fence must remain at least 3 feet behind the front plane of the home.", "severity": "required"},
+    {"id": "A-04", "category": "All", "title": "Neighbor acknowledgment", "detail": "Adjacent owners must acknowledge receipt when the project touches a shared property line.", "severity": "required"},
+    {"id": "A-09", "category": "All", "title": "Site plan", "detail": "Applications must include a labeled site plan with dimensions and material notes.", "severity": "required"},
+    {"id": "P-07", "category": "Patio", "title": "Drainage plan", "detail": "Hardscape over 120 square feet requires a drainage sketch.", "severity": "required"},
+    {"id": "S-03", "category": "Solar", "title": "Conduit routing", "detail": "Exterior conduit must be painted to match the adjacent surface.", "severity": "advisory"}
+  ]
+}
